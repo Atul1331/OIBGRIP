@@ -135,11 +135,6 @@ class Calc {
   // prettier-ignore
   const properties = ["--main-background-color","--keypad-background-color","--screen-background-color","--del-reset-key-bg-color","--del-reset-key-bg-color-hover","--del-reset-key-shadow-color","--equal-key-bg-color","--equal-key-bg-color-hover","--equal-key-shadow-color","--key-bg-color","--key-bg-color-hover","--key-shadow-color","--text-color","--text-color-num","--text-color-prev-op","--text-color-equal-btn"]
   
-  // prettier-ignore
-//   const theme1 = ["hsl(222, 26%, 31%)","hsl(223, 31%, 20%)","hsl(224, 36%, 15%)","hsl(225, 21%, 49%)",
-//   "hsl(224, 76%, 80%)","hsl(224, 28%, 35%)","hsl(6, 63%, 50%)","hsl(6, 99%, 67%)","hsl(6, 70%, 34%)",
-//   "hsl(30, 25%, 89%)", "hsl(0, 0%, 100%)", "hsl(28, 16%, 65%)", "hsl(0, 0%, 100%)",
-//   "hsl(221, 14%, 31%)","#ccc","hsl(0, 0%, 100%)"]
   
   // prettier-ignore
   const theme1 = ["hsl(0, 0%, 90%)","hsl(0, 5%, 81%)","hsl(0, 0%, 93%)","hsl(185, 42%, 37%)","hsl(185, 64%, 65%)","hsl(185, 58%, 25%)","hsl(25, 98%, 40%)","hsl(25, 74%, 63%)","hsl(25, 99%, 27%)","hsl(45, 7%, 89%)","hsl(0, 0%, 100%)","hsl(35, 11%, 61%)","hsl(60, 10%, 19%)","hsl(60, 10%, 19%)","#666",
@@ -161,11 +156,6 @@ class Calc {
       properties.forEach((property,i) => {
         root.style.setProperty(property,theme2[i])
       })
-  
-    // } else {
-    //   properties.forEach((property,i) => {
-    //     root.style.setProperty(property,theme3[i])
-    //   })
      }
   };
   
